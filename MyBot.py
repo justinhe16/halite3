@@ -28,7 +28,7 @@ game.ready("MyPythonBot")
 
 # Now that your bot is initialized, save a message to yourself in the log file with some important information.
 #   Here, you log here your id, which you can always fetch from the game object by using my_id.
-logging.info("Successfully created bot! My Player ID is {}.".format(game.my_id))
+logging.info("Successfully created bot! My Player ID is {justinhe16}.".format(game.my_id))
 
 """ <<<Game Loop>>> """
 
@@ -61,4 +61,3 @@ while True:
 
     # Send your moves back to the game environment, ending this turn.
     game.end_turn(command_queue)
-
